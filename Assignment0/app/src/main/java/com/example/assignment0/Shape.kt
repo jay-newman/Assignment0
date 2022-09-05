@@ -4,7 +4,12 @@ package com.example.assignment0
 
 abstract class Shape (_name : String) : Dimensionable{
     var name = _name
-    fun getArea() {
-        return 0.0;
+    // Returns Double
+    fun getArea() : Double {
+        return 10.00;
+    }
+
+    override fun printDimensions() {
+        TODO("Not yet implemented")
     }
 }
