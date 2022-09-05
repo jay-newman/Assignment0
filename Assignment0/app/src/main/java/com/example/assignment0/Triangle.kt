@@ -1,4 +1,8 @@
 package com.example.assignment0
 
-class Triangle {
+ open class Triangle(_name: String) : Shape(_name) {
+
+     override fun setDimensions() {
+         TODO("Not yet implemented")
+     }
 }

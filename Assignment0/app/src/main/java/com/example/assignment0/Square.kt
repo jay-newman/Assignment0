@@ -1,4 +1,8 @@
 package com.example.assignment0
 
-class Square {
+class Square(_name:String) : Shape(_name) {
+
+    override fun setDimensions() {
+        TODO("Not yet implemented")
+    }
 }
