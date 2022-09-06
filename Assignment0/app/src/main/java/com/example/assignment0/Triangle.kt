@@ -1,7 +1,6 @@
 package com.example.assignment0
 
 import java.util.*
-import kotlin.math.PI
 import kotlin.math.sqrt
 
 open class Triangle(_name: String) : Shape(_name) {
@@ -12,7 +11,7 @@ open class Triangle(_name: String) : Shape(_name) {
     private var s: Double = 0.00
 
     override fun setDimensions() {
-        println("Please enter the length of all three sides of the triangle and press enter.");
+        println("Please enter the length of all three sides of the triangle and press enter.")
         val reader = Scanner(System.`in`)
         print("Enter the length of the first side: ")
         side1 = reader.nextDouble()

@@ -6,8 +6,9 @@ class Square(_name:String) : Shape(_name) {
 
     private var length: Double = 0.00
     private var height: Double = 0.00
+
     override fun setDimensions() {
-        println("Please enter the length and height for a circle and press enter.");
+        println("Please enter the length and height for a circle and press enter.")
         val reader = Scanner(System.`in`)
         print("Enter the length: ")
         length = reader.nextDouble()

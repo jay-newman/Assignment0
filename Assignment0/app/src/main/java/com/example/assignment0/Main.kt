@@ -1,3 +1,8 @@
+// Jay Newman
+// TUID: 916086743
+// Assignment 0
+// 9/11/22
+
 package com.example.assignment0
 
 fun main(args: Array<String>){
