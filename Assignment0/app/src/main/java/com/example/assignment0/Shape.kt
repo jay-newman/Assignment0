@@ -10,7 +10,7 @@ abstract class Shape (_name : String) : Dimensionable{
     override fun printDimensions() {
         println("Here are the shapes dimensions")
     }
-    // Put function here because all shapes need dimensions to be set
+
     override fun setDimensions(){
         println("Please enter the dimensions of the shape")
     }
